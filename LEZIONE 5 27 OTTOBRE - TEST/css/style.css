@@ -1,0 +1,164 @@
+html{font-size: 100%;}
+/* BODY */
+
+body{
+    font-family: Open Sans;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    width: 100vw;
+}
+
+body h1.body, h2.body{
+    color: #25a2c3 ;
+    font-family: Montserrat;
+    line-height: 1.5;
+}
+
+body h1.body{
+    padding-top: 10px;
+    line-height: 1.1;
+}
+
+body h2.white{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Open sans;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    text-align: center;
+    width: auto;
+    padding-top: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+
+header img{
+    width: 148.2px;
+    height: 45.6px; 
+}
+
+
+/* MAIN */
+
+section#titolo{
+    text-align: center;
+    background-image: url(/LEZIONE\ 5\ 27\ OTTOBRE\ -\ TEST/banner.jpg);
+    background-position: center;
+    background-size: 650px;
+    width: auto;
+    padding: 1em;
+    height: 400px;
+}
+
+section#titolo h1{
+    font-size: 3rem
+}
+
+section#titolo p{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+section#titolo button{
+    width: 170px;
+    height: 50px;
+    border-radius: 5%;
+    border-style: none;
+    font-size: large;
+}
+
+main section button{
+    background-color: #f04c2f ;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.persuade{
+    text-align: center;
+    padding: 1em;
+}
+
+section.persuade img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding-bottom: 50px;
+}
+
+section.testimonianze{
+    background-color: #e22d0e;
+    text-align: center;
+    height: 300px;
+    padding: 1em;
+    color: white;
+}
+
+section.testimonianze h2{
+    padding-top: 40px;
+}
+
+section.testimonianze p:nth-of-type(1){
+    font-style: italic;
+    padding-top: 10px;
+}
+
+section.testimonianze p:nth-of-type(2){
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+section.testimonianze p:nth-of-type(2) span{
+    font-size: medium;
+}
+
+section.scheda{
+    text-align: center;
+    margin: 1em;
+    border: 1px solid;
+    border-radius: 2%;
+    border-color: #dee1e3;
+}
+
+section.scheda img{
+   width: 100%;
+   border-radius: 2%; 
+}
+/* FOOTER */
+
+footer{
+    text-align: center;    
+    background-color: #25a2c3;
+    color: #c8e7f0 ;
+    padding: 1em;
+    line-height: 2.5;
+}
+
+footer h2{
+    font-weight: bolder;  
+} 
+
+footer address{
+    line-height: 1.5;
+}
+
+footer a{
+    color: #c8e7f0;
+}
+
+footer hr{ 
+    width: 250px;
+    color: white;
+}
+
+
+footer section p{
+    line-height: 6;
+}
