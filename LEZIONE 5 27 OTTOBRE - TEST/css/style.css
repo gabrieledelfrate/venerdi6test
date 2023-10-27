@@ -47,7 +47,7 @@ header img{
 
 section#titolo{
     text-align: center;
-    background-image: url(/LEZIONE\ 5\ 27\ OTTOBRE\ -\ TEST/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: 650px;
     width: auto;
